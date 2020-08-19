@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) {
-        int port = 8005;
-        String host = "localhost";
+        int port = 8065;
+        String host = "192.168.43.183";
         DataInputStream in;
         DataOutputStream out;
         Socket socket;
