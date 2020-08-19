@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Client {
+public class Client2 {
     public static void main(String[] args) {
         int port = 8005;
         String host = "localhost";

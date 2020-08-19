@@ -1,6 +1,9 @@
+import javafx.application.Platform;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
@@ -15,7 +18,6 @@ public class Server {
 
         try {
             server = new ServerSocket(port);
-
             System.out.println("Serveren er startet " + new Date());
 
             socket = server.accept();
